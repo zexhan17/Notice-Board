@@ -58,19 +58,8 @@
         </div>
     {/if}
     <div class="navbar-end">
-        <Theme />
+        <!-- <Theme /> -->
         {#if $page.data.auth}
-            <!-- <label class="btn btn-ghost btn-circle avatar">
-                <div class="w-10 rounded-full">
-                    {#if $page.data.user.role == "student"}
-                        <img
-                            src={`http://127.0.0.1:8090/api/files/_pb_users_auth_/wvndrwofw1ii0zn/${$page.data.user.avatar}`}
-                        />
-                    {:else}
-                        
-                    {/if}
-                </div>
-            </label> -->
             <Logout />
         {:else}
             <a href="/auth/login" class="btn">sign in</a>

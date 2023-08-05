@@ -36,6 +36,10 @@
                 class="input input-bordered"
             />
         </div>
+        <div class="mt-3 ml-1">
+            <a class="hover:underline" href="/auth/password">Forget Password?</a
+            >
+        </div>
         <button class="btn w-full mt-5">login</button>
         <div class="mt-3 ml-1">
             Don't have an account? <a class="text-info" href="/auth/register"
