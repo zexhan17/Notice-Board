@@ -3,7 +3,6 @@ node_modules
 /build
 /.svelte-kit
 /db/pb_data
-/db/pb_migrations
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
