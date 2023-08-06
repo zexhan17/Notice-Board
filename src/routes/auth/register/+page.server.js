@@ -4,7 +4,6 @@ export const actions = {
     default: async ({ locals, request }) => {
         const formData = await request.formData();
         formData.append("emailVisibility", true)
-        formData.append("active", true)
         const data = Object.fromEntries([...formData])
 
         const { name, email, password, passwordConfirm, dept, role, rollNo, avatar, session } = data;

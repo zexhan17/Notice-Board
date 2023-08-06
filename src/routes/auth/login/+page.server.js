@@ -31,7 +31,7 @@ export const actions = {
             locals.user = undefined
             return fail(400, {
                 error: true,
-                msg: "Visit admin"
+                msg: "Visit admin, or wait for admin to approve your profile"
             })
         }
 

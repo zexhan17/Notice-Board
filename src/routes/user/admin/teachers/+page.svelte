@@ -20,7 +20,7 @@
     }
 
     $: if (checked) {
-        list = list.filter((f) => f.verified == false);
+        list = list.filter((f) => f.active == false);
     } else {
         list = data.teachers;
     }

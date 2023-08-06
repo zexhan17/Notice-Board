@@ -22,8 +22,10 @@
     <div class="flex justify-between items-center">
         {#if user}
             <p class="font-bold capitalize">
-                {user.dept} ({user.session}) .
-                {user.name} ({user.rollNo})
+                {user.dept} . {user.name}
+                {#if user.role == "student"}
+                    . {user.session} . {user.rollNo}
+                {/if}
             </p>
         {/if}
         <form method="post" action="?/deleteMsg" use:enhance>

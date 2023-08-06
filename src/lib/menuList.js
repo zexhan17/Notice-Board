@@ -1,5 +1,6 @@
 const create = { title: "create", path: "/user/create" };
 const profile = { title: "profile", path: "/user/profile" };
+const contact = { title: "contact", path: "/user/contact" };
 
 export const admin = [
     create,
@@ -11,10 +12,11 @@ export const admin = [
 export const teacher = [
     create,
     profile,
+    contact,
 ];
 
 export const student = [
-    { title: "contact", path: "/user/contact" },
+    contact,
     profile,
 ];
 
