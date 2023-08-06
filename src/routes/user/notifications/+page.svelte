@@ -5,7 +5,9 @@
 
 <div
     class={`mt-5 grid place-content-center gap-5 ${
-        data.notices.length > 0 ? "sm:grid-cols-2 md:grid-cols-3" : ""
+        data.notices.length > 0
+            ? "sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+            : ""
     }`}
 >
     {#if data.notices.length > 0}

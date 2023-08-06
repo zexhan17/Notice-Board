@@ -12,7 +12,8 @@ export const admin = [
 export const teacher = [
     create,
     profile,
-    contact,
+    // { title: '', path: '' }
+    //contact,
 ];
 
 export const student = [
