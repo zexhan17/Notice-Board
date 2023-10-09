@@ -6,7 +6,7 @@
     export let form;
 </script>
 
-<div class="grid place-content-center pt-5">
+<div class="grid place-content-center py-5">
     <form method="post" use:enhance class="w-72 sm:w-96 md:w-[40rem]">
         <h3 class="text-xl font-bold text-center">Create Notification</h3>
         <div class="form-control">

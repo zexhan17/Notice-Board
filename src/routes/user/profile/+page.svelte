@@ -1,6 +1,6 @@
 <script>
     import { page } from "$app/stores";
-
+    import { PUBLIC_PB } from "$env/static/public";
     const user = $page.data.user;
 </script>
 
@@ -9,7 +9,7 @@
         {#if user.role == "student"}
             <img
                 class="h-42 mb-5"
-                src={`http://127.0.0.1:8090/api/files/_pb_users_auth_/${user.id}/${user.avatar}`}
+                src={`${PUBLIC_PB}/api/files/_pb_users_auth_/${user.id}/${user.avatar}`}
                 alt="clg card"
             />
         {/if}

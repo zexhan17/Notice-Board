@@ -34,4 +34,12 @@
         </div>
     </h3>
     <p class="mb-5">{notice.description}</p>
+    {#if notice.author == $page.data.user.id || $page.data.user.role == "admin"}
+        <hr class="bg-gray-500 h-[1px] rounded-full" />
+        <small
+            >{notice.dept == "" ? "For All" : notice.dept}{notice.session == 0
+                ? ""
+                : `, ${notice.session}`}</small
+        >
+    {/if}
 </div>
