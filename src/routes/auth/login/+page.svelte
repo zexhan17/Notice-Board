@@ -5,7 +5,7 @@
     export let form;
 </script>
 
-<div class="grid place-content-center mt-5">
+<div class="grid place-content-center my-5">
     <div class="grid place-content-center mt-10">
         <form
             use:enhance
@@ -57,10 +57,10 @@
             <p>
                 create new account then login to explore web or used default one
             </p>
-            <span>admin@gmail.com</span> <small> for admin account</small>
-            <span>stu@gmail.com</span> <small> for student account</small>
-            <span>teacher@gmail.com</span> <small> for teacher account</small>
-            <span>123456789</span> <small>password for all</small>
+            <span class="block">admin@gmail.com <small> for admin account</small> </span>
+            <span class="block">stu@gmail.com <small> for student account</small> </span>
+            <span class="block">teacher@gmail.com <small> for teacher account</small> </span>
+            <span class="block">123456789 <small>password for all</small> </span>
         </div>
     </div>
 </div>
